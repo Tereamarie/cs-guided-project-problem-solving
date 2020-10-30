@@ -14,4 +14,7 @@ Examples:
 """
 def repeat_it(input_str):
     # Your code here
-
+    pass
+print(repeat_it("abcd")) # -> "A-Bb-Ccc-Dddd"
+print(repeat_it("RqaEzty")) # -> "R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy"
+print(repeat_it("cwAt")) # -> "C-Ww-Aaa-Tttt"

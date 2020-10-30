@@ -23,4 +23,9 @@ Notes:
 """
 def data_type(value):
     # Your code here
+    pass
+print(data_type([1, 2, 3, 4])) #➞ "list")
+print(data_type({'key': "value"})) #➞ "dictionary")
+print(data_type("This is an example string."))#➞ "string")
+print( data_type(datetime.date(2018,1,1))) # ➞ "date")
 

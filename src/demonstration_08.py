@@ -11,5 +11,8 @@ Examples:
 """
 def parity(input_int):
     # Your code here
+    pass
 
-
+print(parity(0)) # -> "Even"
+print(parity(1)) # -> "Odd"
+print(parity(2)) # -> "Even"

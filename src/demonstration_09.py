@@ -16,4 +16,8 @@ Examples:
 def get_middle(input_str):
     # Your code here
 
-
+    pass
+print(get_middle("test")) # -> "es"
+print(get_middle("testing")) # -> "t"
+print(get_middle("middle")) # -> "dd"
+print(get_middle("A")) # -> "A"

@@ -13,9 +13,9 @@ sad -> :(
 mad	-> :P
 
 Examples:
-- emotify("Make me smile") ➞ "Make me :D"
-- emotify("Make me grin") ➞ "Make me :)"
-- emotify("Make me sad") ➞ "Make me :("
+emotify("Make me smile") ➞ "Make me :D"
+emotify("Make me grin") ➞ "Make me :)"
+emotify("Make me sad") ➞ "Make me :("
 
 Notes:
 - The sentence always starts with "Make me".
@@ -26,3 +26,7 @@ Notes:
 def emotify(txt):
     # Your code here
 
+    pass
+print(emotify("Make me smile")) # ➞ "Make me :D"
+print(emotify("Make me grin")) # ➞ "Make me :)"
+print(emotify("Make me sad")) # ➞ "Make me :("
