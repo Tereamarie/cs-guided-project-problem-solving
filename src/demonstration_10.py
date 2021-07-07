@@ -17,5 +17,8 @@ the maximum number is first.
 """
 def max_and_min(input_str):
     # Your code here
-
+    pass
+print(max_and_min("1 2 3 4 5")) # -> "5 1"
+print(max_and_min("1 2 -3 4 5")) # -> "5 -3"
+print(max_and_min("1 9 3 4 -5")) # -> "9 -5"
 
